@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | MyProject</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <a class="brand" href="#">MyProject</a>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#ask">Ask Questions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <h1>Welcome to MyProject</h1>
+    <p id="heroText">MyProject is a demonstration of modern front‑end practices using <strong>HTML 5</strong>, <strong>CSS 3</strong>, and <strong>vanilla JavaScript</strong>. It showcases client‑side authentication, smooth UI animations, and responsive design — all without external libraries. Explore the sections below, shoot us a question, and check the source code to learn how it’s built.</p>
+  </section>
+
+  <section id="ask" class="container">
+    <h2>Ask&nbsp;Questions</h2>
+    <form class="ask-form" id="askForm">
+      <input type="text" id="askName" placeholder="Your Name" required />
+      <input type="email" id="askEmail" placeholder="Your Email" required />
+      <textarea id="askMsg" rows="4" placeholder="Your Question" required></textarea>
+      <button class="btn" type="submit">Send Question</button>
+    </form>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:jaffer@gmail.com">jaffer@gmail.com</a></p>
+    <p>Phone: <a href="tel:1234567890">1234567890</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 MyProject | Developed by jaffer sadik j
+  </footer>
+
+  <script src="home.js"></script>
+</body>
+</html>
