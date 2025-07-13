@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | MyProject</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="auth-card">
+    <h2>Welcome Back</h2>
+    <form id="loginForm">
+      <div>
+        <label for="logEmail">Email</label>
+        <input type="email" id="logEmail" required />
+      </div>
+      <div>
+        <label for="logPassword">Password</label>
+        <input type="password" id="logPassword" required />
+      </div>
+      <button type="submit" class="btn">Login</button>
+      <p class="error" id="logError"></p>
+    </form>
+    <p style="text-align:center;margin-top:1rem;font-size:0.9rem;">New here? <a href="register.html">Register</a></p>
+  </main>
+  <script src="login.js"></script>
+</body>
+</html>
